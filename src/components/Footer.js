@@ -11,12 +11,11 @@ const Footer = () => (
         <img src={InnotechLogo} alt="Innotech Logo" />
       </div>
       <ul className="footer-links">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/products">Products</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/faq">FAQ</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/terms">Terms and Policies</Link></li>
+        <li><Link to="/Home">Home</Link></li>
+        <li><Link to="/AboutUs">About Us</Link></li>
+        <li><Link to="/Projects">Projects</Link></li>
+        <li><Link to="/Register">Register</Link></li>
+        <li><Link to="/Terms">Terms and Policies</Link></li>
       </ul>
       <div className="footer-contact">
         <p>GOT A QUESTION?</p>

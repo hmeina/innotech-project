@@ -4,7 +4,7 @@ import './Dashboard.css';
 const Dashboard = () => {
   return (
     <div className="dashboard">
-      <h1>Welcome back, Meina!</h1>
+      <h1>Welcome back, X!</h1>
 
       <div className="dashboard-grid">
         <div className="dashboard-card project-stats">Project Stats</div>
