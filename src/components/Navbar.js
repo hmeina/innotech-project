@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import InnotechLogo from '../assets/InnotechLogo.png';
 
@@ -13,14 +14,16 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-top">
         <div className="navbar-logo">
-          <img src={InnotechLogo} alt="Innotech Logo" />
+          <Link to="/home">
+            <img src={InnotechLogo} alt="Innotech Logo" />
+          </Link>
         </div>
       </div>
       <div className={`navbar-links-container ${isOpen ? 'open' : ''}`}>
         <ul className="navbar-links">
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#projects">PROJECTS</a></li>
-          <li><a href="#login">LOGIN</a></li>
+        <li><Link to="/aboutus">ABOUT</Link></li>
+      <li><Link to="/projects">PROJECTS</Link></li>
+      <li><Link to="/login">LOGIN</Link></li>
         </ul>
       </div>
       <div className="navbar-search">

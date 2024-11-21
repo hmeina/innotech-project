@@ -44,7 +44,7 @@ function Register() {
                     <input type="checkbox" required />
                     By checking this box, I agree to the Terms of Service and Privacy Policy.
                 </label>
-                <button type="submit">LOGIN</button>
+                <button type="submit">REGISTER</button>
                 <p className="signin-link">Already have an account? <a href="/login">Sign In</a></p>
             </form>
         </div>
