@@ -1,0 +1,107 @@
+/* General Navbar styles */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar-top {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .navbar-logo img {
+    height: 50px;
+  }
+  
+  /* Quick Links */
+  .navbar-links-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+  
+  .navbar-links {
+    display: flex;
+    gap: 1.5rem;
+    list-style: none;
+  }
+  
+  .navbar-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  /* Search and Hamburger */
+  .navbar-search {
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  .navbar-search input {
+    padding: 0.4rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .navbar-search button {
+    padding: 0.4rem 0.8rem;
+    background-color: #e29e0a;
+    color: #0c0101;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .hamburger {
+    display: none;
+    font-size: 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 2rem;
+  }
+  
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .navbar-links-container {
+      display: none;
+      flex-direction: column;
+      align-items: center;
+      background-color: #ffffff;
+      width: 100%;
+      position: absolute;
+      top: 60px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+      z-index: 1;
+    }
+  
+    .navbar-links-container.open {
+      display: flex;
+    }
+  
+    .navbar-search {
+      display: none;
+    }
+  
+    .hamburger {
+      display: block;
+      color: #333;
+    }
+  }
+  

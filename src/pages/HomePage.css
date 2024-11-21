@@ -1,0 +1,76 @@
+/* Navbar styles */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .logo img {
+    height: 50px;
+  }
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  .nav-links li {
+    margin: 0 15px;
+  }
+  .search-btn {
+    padding: 5px 10px;
+  }
+  
+  /* Hero section */
+  .hero {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  .get-started-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #333;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Features section */
+  .features {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+  }
+  .feature {
+    text-align: center;
+    width: 30%;
+  }
+  /* Feature image styling */
+.feature img {
+    width: 100%;         
+    height: 200px;       
+    object-fit: cover;   
+  }
+  /* Learn More section */
+  .learn-more {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+  }
+  .learn-more-card {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    width: 45%;
+  }
+  .learn-more-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
