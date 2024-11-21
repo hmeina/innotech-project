@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/innotech-projects/static/css/main.3ab12ed0.css",
-    "main.js": "/innotech-projects/static/js/main.da15a7b5.js",
-    "static/js/453.6077585c.chunk.js": "/innotech-projects/static/js/453.6077585c.chunk.js",
-    "static/media/skills.png": "/innotech-projects/static/media/skills.4c210d0734408c7ad97e.png",
-    "static/media/challenges.jpg": "/innotech-projects/static/media/challenges.c274f29b5c1bbc803f0d.jpg",
-    "static/media/business.jpeg": "/innotech-projects/static/media/business.a76a9602cdb19cdd8fad.jpeg",
-    "static/media/InnotechLogo.png": "/innotech-projects/static/media/InnotechLogo.7b91835ef9e3a13a2bc4.png",
-    "index.html": "/innotech-projects/index.html",
-    "main.3ab12ed0.css.map": "/innotech-projects/static/css/main.3ab12ed0.css.map",
-    "main.da15a7b5.js.map": "/innotech-projects/static/js/main.da15a7b5.js.map",
-    "453.6077585c.chunk.js.map": "/innotech-projects/static/js/453.6077585c.chunk.js.map"
+    "main.css": "/innotech-project/static/css/main.3ab12ed0.css",
+    "main.js": "/innotech-project/static/js/main.8d1c082d.js",
+    "static/js/453.6077585c.chunk.js": "/innotech-project/static/js/453.6077585c.chunk.js",
+    "static/media/skills.png": "/innotech-project/static/media/skills.4c210d0734408c7ad97e.png",
+    "static/media/challenges.jpg": "/innotech-project/static/media/challenges.c274f29b5c1bbc803f0d.jpg",
+    "static/media/business.jpeg": "/innotech-project/static/media/business.a76a9602cdb19cdd8fad.jpeg",
+    "static/media/InnotechLogo.png": "/innotech-project/static/media/InnotechLogo.7b91835ef9e3a13a2bc4.png",
+    "index.html": "/innotech-project/index.html",
+    "main.3ab12ed0.css.map": "/innotech-project/static/css/main.3ab12ed0.css.map",
+    "main.8d1c082d.js.map": "/innotech-project/static/js/main.8d1c082d.js.map",
+    "453.6077585c.chunk.js.map": "/innotech-project/static/js/453.6077585c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3ab12ed0.css",
-    "static/js/main.da15a7b5.js"
+    "static/js/main.8d1c082d.js"
   ]
 }
