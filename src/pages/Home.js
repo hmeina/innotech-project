@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'; 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import challenges from '../assets/challenges.jpg'; 
@@ -14,8 +15,10 @@ const HomePage = () => {
       <section className="hero">
         <div className="hero-content">
           <h2>Connect with real-world projects.</h2>
-          <p>XXXXXXXXXXXXXX</p>
-          <button className="get-started-btn">Get Started</button>
+          <p>Don't wait, create your account now!</p>
+          <Link to="/register">
+            <button className="get-started-btn">Get Started</button>
+          </Link>
         </div>
       </section>
 

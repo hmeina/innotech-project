@@ -10,7 +10,6 @@ import Projects from './pages/Projects';
 import ProjectDetails from './pages/ProjectDetails';
 import Quiz from './pages/Quiz';
 import AboutUs from './pages/AboutUs';
-import QuizConfirmation from './pages/QuizConfirmation';
 import ProjectConfirmation from './pages/ProjectConfirmation';
 import NewProjectPost from './pages/NewProjectPost';
 
@@ -27,7 +26,6 @@ function App() {
         <Route path="/projects/:id" element={<ProjectDetails />} />
         <Route path="/quiz" element={<Quiz />} />
         <Route path="/aboutus" element={<AboutUs />} />
-        <Route path="/quizconfirmation" element={<QuizConfirmation />} />
         <Route path="/projectconfirmation" element={<ProjectConfirmation />} />
         <Route path="/newprojectpost" element={<NewProjectPost />} />
       </Routes>

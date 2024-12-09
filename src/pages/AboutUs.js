@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './AboutUs.css';
 
 const AboutUs = () => {
@@ -34,7 +35,9 @@ const AboutUs = () => {
             <p>
               Join our platform today and start gaining practical experience that will set you apart in your career. Whether you are a student looking to expand your skill set or a company seeking fresh talent, Innotech Projects is the place to connect, collaborate, and grow.
             </p>
-            <button className="cta-button">Join Now</button>
+            <Link to="/Register">
+              <button className="cta-button">Join Now</button>
+            </Link>
           </div>
         </div>
       </div>
