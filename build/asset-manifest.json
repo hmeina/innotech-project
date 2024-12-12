@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/innotech-project/static/css/main.93f26769.css",
+    "main.js": "/innotech-project/static/js/main.120d1f3a.js",
+    "static/js/453.6077585c.chunk.js": "/innotech-project/static/js/453.6077585c.chunk.js",
+    "static/media/skills.png": "/innotech-project/static/media/skills.4c210d0734408c7ad97e.png",
+    "static/media/challenges.jpg": "/innotech-project/static/media/challenges.c274f29b5c1bbc803f0d.jpg",
+    "static/media/business.jpeg": "/innotech-project/static/media/business.a76a9602cdb19cdd8fad.jpeg",
+    "static/media/InnotechLogo.png": "/innotech-project/static/media/InnotechLogo.7b91835ef9e3a13a2bc4.png",
+    "index.html": "/innotech-project/index.html",
+    "main.93f26769.css.map": "/innotech-project/static/css/main.93f26769.css.map",
+    "main.120d1f3a.js.map": "/innotech-project/static/js/main.120d1f3a.js.map",
+    "453.6077585c.chunk.js.map": "/innotech-project/static/js/453.6077585c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93f26769.css",
+    "static/js/main.120d1f3a.js"
+  ]
+}
