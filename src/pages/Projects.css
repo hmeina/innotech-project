@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .project-container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  /* Header */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Controls */
+  .controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .controls input,
+  .controls button,
+  .controls select {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .controls button {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .controls button:hover {
+    background-color: #555;
+  }
+  
+  /* Table Styles */
+  .table-wrapper {
+    overflow-x: auto;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th,
+  table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #f2f2f2;
+  }
+  
+  .learn-more-btn {
+    display: inline-block;
+    padding: 5px 10px;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #444;
+  }
+  
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .pagination button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #555;
+  }
+  
+  .pagination span {
+    font-size: 1rem;
+  }
+  
