@@ -66,6 +66,38 @@ app.post("/quiz-responses", async (req, res) => {
   }
 });
 
+// GET route for Projects
+app.get("/projects", async (req, res) => {
+  const { skill, duration, status } = req.query;
+
+  try {
+    let query = supabase.from("projects").select("*");
+
+    // Apply filters if provided
+    if (skill) {
+      query = query.contains("skills", [skill]); // Assuming 'skills' is an array column
+    }
+    if (duration) {
+      query = query.eq("duration", duration);
+    }
+    if (status) {
+      query = query.eq("status", status);
+    }
+
+    const { data, error } = await query;
+
+    if (error) {
+      console.error("Error fetching projects:", error);
+      return res.status(500).json({ error: error.message });
+    }
+
+    res.json(data);
+  } catch (err) {
+    console.error("Server error:", err);
+    res.status(500).json({ error: "Internal server error" });
+  }
+});
+
 // start server
 app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);

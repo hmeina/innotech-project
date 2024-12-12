@@ -10,10 +10,15 @@
 
 export default {
 	async fetch(request, env, ctx) {
+		const { searchParams } = new URL(request.url);
+		const question = searchParams.get('q') || 'What is the square root of 3?';
+
 		const answer = await env.AI.run('@cf/meta/llama-3-8b-instruct', {
-			messages: [{ role: 'user', content: `What is the square root of 3?` }],
+			messages: [{ role: 'user', content: question }],
 		});
 
-		return new Response(JSON.stringify(answer));
+		return new Response(JSON.stringify(answer), {
+			headers: { 'Content-Type': 'application/json' },
+		});
 	},
 };
